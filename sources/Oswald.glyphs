@@ -1,8 +1,5 @@
 {
-.appVersion = "3326";
-DisplayStrings = (
-"/De-cy/de-cy/De-cy t/en-cy/o-cy HOnot/Tse-cy/Shcha-cy"
-);
+.appVersion = "3335";
 classes = (
 {
 automatic = 1;
