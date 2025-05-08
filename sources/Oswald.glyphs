@@ -1,5 +1,8 @@
 {
 .appVersion = "3414";
+DisplayStrings = (
+"/yi-cy/yi-cy/space/be-cy/i-cy/be-cy/el-cy/i-cy/yi-cy \012/yi-cy/yi-cy/space/be-cy/i-cy/be-cy/el-cy/i-cy/yi-cy/space \012/yi-cy/yi-cy/space/be-cy/i-cy/be-cy/el-cy/i-cy/yi-cy"
+);
 classes = (
 {
 automatic = 1;
@@ -57,7 +60,7 @@ Tag = wght;
 );
 }
 );
-date = "2025-05-08 11:22:52 +0000";
+date = "2025-05-08 12:17:14 +0000";
 designer = "Vernon Adams";
 designerURL = "http://www.sansoxygen.com";
 familyName = Oswald;
@@ -58746,7 +58749,7 @@ layerId = "FCD7E481-103E-4A6C-AD70-01DA443B2AD0";
 width = 182;
 }
 );
-leftKerningGroup = "ve-cy";
+leftKerningGroup = "ii-cy";
 rightKerningGroup = "ii-cy";
 unicode = 0457;
 },
@@ -97587,6 +97590,10 @@ odblgrave = 6;
 ograve = 6;
 oinvertedbreve = 6;
 };
+"yi-cy" = {
+"@MMK_R_ii-cy" = 0;
+"yi-cy" = 60;
+};
 zero = {
 seven = -16;
 };
@@ -98277,6 +98284,9 @@ oinvertedbreve = -11;
 "@MMK_R_quote" = -7;
 "@MMK_R_u-cy" = -21;
 };
+"@MMK_L_ii-cy" = {
+"@MMK_R_ve-cy" = 0;
+};
 "@MMK_L_k" = {
 "@MMK_R_T" = -33;
 "@MMK_R_W" = -3;
@@ -98681,6 +98691,10 @@ V = -20;
 odblgrave = -3;
 ograve = -3;
 oinvertedbreve = -3;
+};
+"yi-cy" = {
+"@MMK_R_ii-cy" = 0;
+"yi-cy" = 80;
 };
 zero = {
 "@MMK_R_Ha-cy" = -3;
@@ -99385,6 +99399,10 @@ oinvertedbreve = -12;
 "@MMK_R_quote" = -2;
 "@MMK_R_u-cy" = -20;
 };
+"@MMK_L_ii-cy" = {
+"@MMK_R_ve-cy" = 0;
+"yi-cy" = 20;
+};
 "@MMK_L_k" = {
 "@MMK_R_T" = -38;
 "@MMK_R_W" = -8;
@@ -99820,6 +99838,9 @@ V = -28;
 odblgrave = -16;
 ograve = -16;
 oinvertedbreve = -16;
+};
+"yi-cy" = {
+"yi-cy" = 80;
 };
 zero = {
 "@MMK_R_Ha-cy" = -8;
@@ -100564,5 +100585,5 @@ com.typesupply.MetricsMachine4.groupColors = {
 };
 };
 versionMajor = 4;
-versionMinor = 500;
+versionMinor = 510;
 }
