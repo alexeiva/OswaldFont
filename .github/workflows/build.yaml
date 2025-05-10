@@ -6,34 +6,52 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
-    - name: Upgrade pip
-      run: pip install -U pip
-    - name: Install Linux dependencies
-      run: |
-        sudo snap install yq
-    - name: Build font
-      run: make build
-    - name: Check with fontbakery
-      run: make test
-      continue-on-error: true
-    - name: Generate proofs
-      run: make proof
-    - name: Gather
-      run: |
-          mkdir for-gh-pages
+      # Checkout the repository
+      - uses: actions/checkout@v2
+      
+      # Set up Python 3.8 environment
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      # Upgrade pip to the latest version
+      - name: Upgrade pip
+        run: pip install -U pip
+
+      # Install necessary Linux dependencies
+      - name: Install Linux dependencies
+        run: |
+          sudo snap install yq
+
+      # Build the font
+      - name: Build font
+        run: make build
+
+      # Check the font with fontbakery (non-fatal on failure)
+      - name: Check with fontbakery
+        run: make test
+        continue-on-error: true
+
+      # Generate proof files
+      - name: Generate proofs
+        run: make proof
+
+      # Gather all generated files into a single folder for deployment
+      - name: Gather
+        run: |
+          mkdir -p for-gh-pages
           mv fontbakery-report.html for-gh-pages
           mv proof/* for-gh-pages
-    - name: Archive artifacts
-      uses: actions/upload-artifact@v3
-      with:
-        name: Artifacts
-        path: |
-          for-gh-pages
-    - name: Remove temp folder
-      run: |
+
+      # Archive artifacts using the latest stable version of the action
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: Artifacts
+          path: for-gh-pages
+
+      # Remove temporary folders to clean up the environment
+      - name: Remove temp folder
+        run: |
           rm -rf for-gh-pages
