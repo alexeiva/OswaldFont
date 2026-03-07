@@ -1,5 +1,8 @@
 {
 .appVersion = "3436";
+DisplayStrings = (
+"/Cheabkhasian-cy/Chedescenderabkhasian-cy/cheabkhasian-cy/chedescenderabkhasian-cy"
+);
 classes = (
 {
 automatic = 1;
@@ -57,7 +60,7 @@ Tag = wght;
 );
 }
 );
-date = "2026-03-07 01:01:04 +0000";
+date = "2026-03-07 15:13:25 +0000";
 designer = "Vernon Adams";
 designerURL = "http://www.sansoxygen.com";
 familyName = Oswald;
@@ -49669,10 +49672,6 @@ layers = (
 components = (
 {
 name = "Cheabkhasian-cy";
-},
-{
-name = dieresiscomb;
-transform = "{1, 0, 0, 1, 345, 232}";
 }
 );
 layerId = "FCD7E481-103E-4A6C-AD70-01DA443B2AD0";
@@ -49680,10 +49679,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"386 -134 LINE",
-"391 18 LINE",
-"337 18 LINE",
-"342 -134 LINE"
+"385 -134 LINE",
+"390 18 LINE",
+"336 18 LINE",
+"341 -134 LINE"
 );
 }
 );
@@ -49693,10 +49692,6 @@ width = 602;
 components = (
 {
 name = "Cheabkhasian-cy";
-},
-{
-name = dieresiscomb;
-transform = "{1, 0, 0, 1, 418, 232}";
 }
 );
 layerId = "8AC5A1D3-32A8-4416-86FC-94176A419B8F";
@@ -49704,40 +49699,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"458 -147 LINE",
-"466 49 LINE",
-"367 49 LINE",
-"374 -147 LINE"
+"472 -147 LINE",
+"480 49 LINE",
+"381 49 LINE",
+"388 -147 LINE"
 );
 }
 );
 width = 685;
 },
 {
-associatedMasterId = "FCD7E481-103E-4A6C-AD70-01DA443B2AD0";
-components = (
-{
-name = "Cheabkhasian-cy";
-},
-{
-name = dieresiscomb;
-transform = "{1, 0, 0, 1, 365, 232}";
-}
-);
-layerId = "7F9454AB-D5ED-4684-A94C-06C321D1641C";
-name = "Nov 10 17, 11:25";
-width = 622;
-},
-{
 components = (
 {
 alignment = -1;
 name = "Cheabkhasian-cy";
-},
-{
-alignment = -1;
-name = dieresiscomb;
-transform = "{1, 0, 0, 1, 517.2, 232}";
 }
 );
 layerId = "F66B25F0-8957-42F3-9BF7-6C5DDCB0258B";
@@ -66221,10 +66196,6 @@ layers = (
 components = (
 {
 name = "cheabkhasian-cy";
-},
-{
-name = dieresiscomb;
-transform = "{1, 0, 0, 1, 282, 0}";
 }
 );
 layerId = "FCD7E481-103E-4A6C-AD70-01DA443B2AD0";
@@ -66245,10 +66216,6 @@ width = 470;
 components = (
 {
 name = "cheabkhasian-cy";
-},
-{
-name = dieresiscomb;
-transform = "{1, 0, 0, 1, 321, 0}";
 }
 );
 layerId = "8AC5A1D3-32A8-4416-86FC-94176A419B8F";
@@ -66256,10 +66223,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"364 -147 LINE",
-"370 26 LINE",
-"281 26 LINE",
-"286 -147 LINE"
+"394 -147 LINE",
+"400 26 LINE",
+"311 26 LINE",
+"316 -147 LINE"
 );
 }
 );
@@ -66270,11 +66237,6 @@ components = (
 {
 alignment = -1;
 name = "cheabkhasian-cy";
-},
-{
-alignment = -1;
-name = dieresiscomb;
-transform = "{1, 0, 0, 1, 417.875, 0}";
 }
 );
 layerId = "F66B25F0-8957-42F3-9BF7-6C5DDCB0258B";
@@ -66282,10 +66244,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"480 -160 LINE",
-"489 32 LINE",
-"364 32 LINE",
-"372 -160 LINE"
+"470 -160 LINE",
+"479 32 LINE",
+"354 32 LINE",
+"362 -160 LINE"
 );
 }
 );
@@ -100519,5 +100481,5 @@ com.typesupply.MetricsMachine4.groupColors = {
 };
 };
 versionMajor = 4;
-versionMinor = 520;
+versionMinor = 522;
 }

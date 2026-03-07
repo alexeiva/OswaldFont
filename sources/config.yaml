@@ -3,7 +3,7 @@ sources:
 axisOrder:
   - wght
 familyName: Oswald
-buildOTF: false
+buildOTF: true
 ttfaUseScript: true
 flattenComponents: true
 decomposeTransformedComponents: true
