@@ -3,7 +3,7 @@
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B Bdotaccent C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D DZ DZcaron Dcaron Dcroat Ddotaccent Dz Dzcaron Eth E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Eogonek Etilde Schwa Ezh Ezhcaron F Fdotaccent G Gacute Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gstroke H Hbar Hcaron Hcircumflex I IJ Iacute Ibreve Icircumflex Idblgrave Idieresis Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jcircumflex K Kcaron Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Lj Lslash M Mdotaccent N NJ Nacute Ncaron Ncommaaccent Nj Ntilde Eng O Oacute Obreve Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Oogonek Oslash Oslashacute Otilde Otildemacron OE P Pdotaccent Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rinvertedbreve S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent Tdotaccent U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent A-cy Abreve-cy Adieresis-cy Aie-cy Be-cy Ve-cy We-cy Ge-cy Gedescender-cy Gestroke-cy Gemiddlehook-cy Gestrokehook-cy Gje-cy Geupturn-cy Shha-cy Shhadescender-cy De-cy Ie-cy Iegrave-cy Io-cy Iebreve-cy Reversedze-cy E-cy Schwa-cy Schwadieresis-cy Zhe-cy Zhedescender-cy Zhebreve-cy Zhedieresis-cy Dzeabkhasian-cy Ze-cy Zedescender-cy Zedieresis-cy Dze-cy Ii-cy Imacron-cy Idieresis-cy Iigrave-cy Iishort-cy Iishorttail-cy I-cy Yi-cy Je-cy Ka-cy Kje-cy Kadescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy Kahook-cy El-cy Lje-cy Eldescender-cy Eltail-cy Elhook-cy Em-cy Emtail-cy En-cy Nje-cy Endescender-cy Enhook-cy Entail-cy EnGe-cy EnLeftHook-cy O-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Pe-cy Pedescender-cy Pemiddlehook-cy Er-cy Ertick-cy Es-cy Esdescender-cy Te-cy Tedescender-cy U-cy Ushort-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Ustraight-cy Ustraightstroke-cy Ef-cy Ha-cy Hadescender-cy Hahook-cy Hastroke-cy Che-cy Chedescender-cy Chedieresis-cy Cheverticalstroke-cy Chekhakassian-cy Cheabkhasian-cy Chedescenderabkhasian-cy Tse-cy Tetse-cy Sha-cy Shcha-cy Dzhe-cy Hardsign-cy Yeru-cy Yerudieresis-cy Softsign-cy Semisoftsign-cy Yat-cy Ereversed-cy Edieresis-cy Tshe-cy Yu-cy Ya-cy Dje-cy Yusbig-cy Fita-cy Izhitsa-cy Haabkhasian-cy Palochka-cy Pi";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B Bdotaccent C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D DZ DZcaron Dcaron Dcroat Ddotaccent Dz Dzcaron Eth E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Eogonek Etilde Schwa Ezh Ezhcaron F Fdotaccent G Gacute Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gstroke H Hbar Hcaron Hcircumflex I IJ Iacute Ibreve Icircumflex Idblgrave Idieresis Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jcircumflex K Kcaron Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Lj Lslash M Mdotaccent N NJ Nacute Ncaron Ncommaaccent Nj Ntilde Eng O Oacute Obreve Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Oogonek Oslash Oslashacute Otilde Otildemacron OE P Pdotaccent Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rinvertedbreve S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent Tdotaccent U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent A-cy Abreve-cy Adieresis-cy Aie-cy Be-cy Ve-cy We-cy Ge-cy Gedescender-cy Gestroke-cy Gemiddlehook-cy Gestrokehook-cy Gje-cy Geupturn-cy Shha-cy Shhadescender-cy De-cy Ie-cy Iegrave-cy Io-cy Iebreve-cy Reversedze-cy E-cy Schwa-cy Schwadieresis-cy Zhe-cy Zhedescender-cy Zhebreve-cy Zhedieresis-cy Dzeabkhasian-cy Ze-cy Zedescender-cy Zedieresis-cy Dze-cy Ii-cy Imacron-cy Idieresis-cy Iigrave-cy Iishort-cy Iishorttail-cy I-cy Yi-cy Je-cy Ka-cy Kje-cy Kadescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy Kahook-cy El-cy Lje-cy Eldescender-cy Eltail-cy Elhook-cy Em-cy Emtail-cy En-cy Nje-cy Endescender-cy Enhook-cy Entail-cy EnGe-cy EnLeftHook-cy O-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Pe-cy Pedescender-cy Pemiddlehook-cy Er-cy Ertick-cy Es-cy Esdescender-cy Te-cy Tedescender-cy U-cy Ushort-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Ustraight-cy Ustraightstroke-cy Ef-cy Ha-cy Hadescender-cy Hahook-cy Hastroke-cy Che-cy Chedescender-cy Chedieresis-cy Cheverticalstroke-cy Chekhakassian-cy Cheabkhasian-cy Chedescenderabkhasian-cy Tse-cy Tetse-cy Sha-cy Shcha-cy Dzhe-cy Hardsign-cy Yeru-cy Yerudieresis-cy Softsign-cy Semisoftsign-cy Yat-cy Ereversed-cy Ereverseddieresis-cy Tshe-cy Yu-cy Ya-cy Dje-cy Yusbig-cy Fita-cy Izhitsa-cy Haabkhasian-cy Palochka-cy Pi";
 name = Uppercase;
 }
 );
@@ -57,7 +57,7 @@ Tag = wght;
 );
 }
 );
-date = "2026-03-07 00:56:27 +0000";
+date = "2026-03-07 01:01:04 +0000";
 designer = "Vernon Adams";
 designerURL = "http://www.sansoxygen.com";
 familyName = Oswald;
@@ -45337,7 +45337,7 @@ nodes = (
 width = 643;
 }
 );
-unicode = "0528,0529";
+unicode = 0528;
 },
 {
 color = 4;
@@ -51567,7 +51567,7 @@ unicode = 042D;
 },
 {
 color = 4;
-glyphname = "Edieresis-cy";
+glyphname = "Ereverseddieresis-cy";
 layers = (
 {
 components = (
@@ -51611,7 +51611,7 @@ width = 591;
 );
 leftKerningGroup = "Ze-cy";
 rightKerningGroup = "O-cy";
-unicode = 04EC;
+unicode = "04EC,F526";
 },
 {
 color = 4;
@@ -67895,7 +67895,7 @@ unicode = 044D;
 },
 {
 color = 4;
-glyphname = "edieresis-cy";
+glyphname = "ereverseddieresis-cy";
 layers = (
 {
 components = (
@@ -67939,7 +67939,7 @@ width = 495;
 );
 leftKerningGroup = "edieresis-cy";
 rightKerningGroup = "be-cy";
-unicode = 04ED;
+unicode = "04ED,F527";
 },
 {
 color = 4;
@@ -72408,21 +72408,108 @@ leftKerningGroup = "u-cy";
 rightKerningGroup = "u-cy";
 },
 {
-color = 10;
+color = 4;
 export = 0;
 glyphname = "enlefthook-cy";
 layers = (
 {
 layerId = "FCD7E481-103E-4A6C-AD70-01DA443B2AD0";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"91 -144 OFFCURVE",
+"110 -81 OFFCURVE",
+"110 14 CURVE SMOOTH",
+"110 280 LINE",
+"298 280 LINE",
+"298 0 LINE",
+"351 0 LINE",
+"351 578 LINE",
+"298 578 LINE",
+"298 321 LINE",
+"110 321 LINE",
+"110 578 LINE",
+"57 578 LINE",
+"57 15 LINE SMOOTH",
+"57 -62 OFFCURVE",
+"49 -102 OFFCURVE",
+"-27 -102 CURVE SMOOTH",
+"-40 -102 LINE",
+"-40 -142 LINE",
+"-30 -143 OFFCURVE",
+"-25 -144 OFFCURVE",
+"-14 -144 CURVE SMOOTH"
+);
+}
+);
+width = 409;
 },
 {
 layerId = "8AC5A1D3-32A8-4416-86FC-94176A419B8F";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"124 -147 OFFCURVE",
+"161 -97 OFFCURVE",
+"161 23 CURVE SMOOTH",
+"161 257 LINE",
+"288 257 LINE",
+"288 0 LINE",
+"395 0 LINE",
+"395 578 LINE",
+"288 578 LINE",
+"288 335 LINE",
+"161 335 LINE",
+"161 578 LINE",
+"54 578 LINE",
+"54 20 LINE SMOOTH",
+"54 -49 OFFCURVE",
+"43 -73 OFFCURVE",
+"0 -73 CURVE SMOOTH",
+"-21 -73 LINE",
+"-21 -143 LINE",
+"-15 -144 OFFCURVE",
+"-1 -147 OFFCURVE",
+"24 -147 CURVE SMOOTH"
+);
+}
+);
+width = 450;
 },
 {
 layerId = "F66B25F0-8957-42F3-9BF7-6C5DDCB0258B";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"181 -169 OFFCURVE",
+"230 -111 OFFCURVE",
+"230 4 CURVE SMOOTH",
+"230 238 LINE",
+"314 238 LINE",
+"314 0 LINE",
+"493 0 LINE",
+"493 578 LINE",
+"314 578 LINE",
+"314 360 LINE",
+"230 360 LINE",
+"230 578 LINE",
+"51 578 LINE",
+"51 16 LINE SMOOTH",
+"51 -38 OFFCURVE",
+"48 -69 OFFCURVE",
+"9 -69 CURVE SMOOTH",
+"-7 -69 LINE",
+"-7 -165 LINE",
+"12 -167 OFFCURVE",
+"31 -169 OFFCURVE",
+"51 -169 CURVE SMOOTH"
+);
+}
+);
+width = 545;
 }
 );
 unicode = 0529;
