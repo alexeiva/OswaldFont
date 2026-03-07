@@ -58,8 +58,8 @@ rule copy
       gftools.builder.jobrunner cp $in $out $stamp
   description = copy
 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp303dwofs
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp303dwofs: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpb0l1he2h
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpb0l1he2h: $
     buildVariable Oswald.glyphs
   operation = buildVariable
   args = --filter ...  --filter FlattenComponentsFilter --filter $
@@ -110,13 +110,13 @@ build instance_ufos/Oswald-Bold.ufo.json: instantiateUfo Oswald.glyphs
   args =  --ufo-structure=json --instance-dir instance_ufos
 # Postprocessing  with BuildSTAT
 build $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmputh3h35a.buildStatstamp: $
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpd3nn9lpv.buildStatstamp: $
     buildSTAT-postprocess ../fonts/variable/Oswald[wght].ttf | $
     ../fonts/variable/Oswald[wght].ttf
   stamp =  && touch $
-      /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmputh3h35a.buildStatstamp
+      /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpd3nn9lpv.buildStatstamp
   postprocess = buildStat
-  args = --src /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmph499hxy3
+  args = --src /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpiql3ui5l
 # Generating ../fonts/webfonts/Oswald[wght].woff2
 build ../fonts/webfonts/Oswald[wght].woff2: compress $
     ../fonts/variable/Oswald[wght].ttf
@@ -147,197 +147,197 @@ build ../fonts/webfonts/Oswald-Bold.woff2: compress $
   operation = compress
 # Generating ../fonts/variable/Oswald[wght].ttf
 build ../fonts/variable/Oswald[wght].ttf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp303dwofs
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpb0l1he2h
   operation = fix
   args = 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpusmdljub
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpusmdljub: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpu68sim5s
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpu68sim5s: $
     buildTTF instance_ufos/Oswald-ExtraLight.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpezh2zmbj
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpezh2zmbj: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp6r24jql5
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp6r24jql5: $
     buildOTF instance_ufos/Oswald-ExtraLight.ufo.json
   operation = buildOTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpvmshz4xf
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpvmshz4xf: $
-    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpusmdljub
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmphir5wkb3
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmphir5wkb3: $
+    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpu68sim5s
   operation = autohint
   args = --fail-ok  --auto-script
 # Generating ../fonts/ttf/Oswald-ExtraLight.ttf
 build ../fonts/ttf/Oswald-ExtraLight.ttf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpvmshz4xf
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmphir5wkb3
   operation = fix
   args = 
 # Generating ../fonts/otf/Oswald-ExtraLight.otf
 build ../fonts/otf/Oswald-ExtraLight.otf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpezh2zmbj
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp6r24jql5
   operation = fix
   args = 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpl_8rk0nx
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpl_8rk0nx: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpxlht2ac4
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpxlht2ac4: $
     buildTTF instance_ufos/Oswald-Light.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpj0roj_jg
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpj0roj_jg: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp9di6orh7
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp9di6orh7: $
     buildOTF instance_ufos/Oswald-Light.ufo.json
   operation = buildOTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpmb_5z9yr
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpmb_5z9yr: $
-    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpl_8rk0nx
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp2ifroccw
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp2ifroccw: $
+    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpxlht2ac4
   operation = autohint
   args = --fail-ok  --auto-script
 # Generating ../fonts/ttf/Oswald-Light.ttf
 build ../fonts/ttf/Oswald-Light.ttf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpmb_5z9yr
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp2ifroccw
   operation = fix
   args = 
 # Generating ../fonts/otf/Oswald-Light.otf
 build ../fonts/otf/Oswald-Light.otf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpj0roj_jg
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp9di6orh7
   operation = fix
   args = 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpc4nohpmg
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpc4nohpmg: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpmzp9xf_j
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpmzp9xf_j: $
     buildTTF instance_ufos/Oswald-Regular.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmphaaz_hy0
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmphaaz_hy0: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpr8h_fy34
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpr8h_fy34: $
     buildOTF instance_ufos/Oswald-Regular.ufo.json
   operation = buildOTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpr6khg6o1
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpr6khg6o1: $
-    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpc4nohpmg
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmplp9ej5mc
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmplp9ej5mc: $
+    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpmzp9xf_j
   operation = autohint
   args = --fail-ok  --auto-script
 # Generating ../fonts/ttf/Oswald-Regular.ttf
 build ../fonts/ttf/Oswald-Regular.ttf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpr6khg6o1
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmplp9ej5mc
   operation = fix
   args = 
 # Generating ../fonts/otf/Oswald-Regular.otf
 build ../fonts/otf/Oswald-Regular.otf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmphaaz_hy0
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpr8h_fy34
   operation = fix
   args = 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpg4nf1q3l
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpg4nf1q3l: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp1dqxc97d
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp1dqxc97d: $
     buildTTF instance_ufos/Oswald-Medium.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpu8g4z7zf
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpu8g4z7zf: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp6feoyx4p
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp6feoyx4p: $
     buildOTF instance_ufos/Oswald-Medium.ufo.json
   operation = buildOTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmptttncxag
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmptttncxag: $
-    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpg4nf1q3l
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp66nf0exj
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp66nf0exj: $
+    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp1dqxc97d
   operation = autohint
   args = --fail-ok  --auto-script
 # Generating ../fonts/ttf/Oswald-Medium.ttf
 build ../fonts/ttf/Oswald-Medium.ttf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmptttncxag
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp66nf0exj
   operation = fix
   args = 
 # Generating ../fonts/otf/Oswald-Medium.otf
 build ../fonts/otf/Oswald-Medium.otf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpu8g4z7zf
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp6feoyx4p
   operation = fix
   args = 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp3qp2qbi8
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp3qp2qbi8: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpp5vs6xjf
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpp5vs6xjf: $
     buildTTF instance_ufos/Oswald-SemiBold.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp865hwqfn
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp865hwqfn: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpztbfp0vi
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpztbfp0vi: $
     buildOTF instance_ufos/Oswald-SemiBold.ufo.json
   operation = buildOTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpwph_2mo6
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpwph_2mo6: $
-    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp3qp2qbi8
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpk33b6h0k
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpk33b6h0k: $
+    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpp5vs6xjf
   operation = autohint
   args = --fail-ok  --auto-script
 # Generating ../fonts/ttf/Oswald-SemiBold.ttf
 build ../fonts/ttf/Oswald-SemiBold.ttf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpwph_2mo6
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpk33b6h0k
   operation = fix
   args = 
 # Generating ../fonts/otf/Oswald-SemiBold.otf
 build ../fonts/otf/Oswald-SemiBold.otf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp865hwqfn
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpztbfp0vi
   operation = fix
   args = 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp5l1q_6ci
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp5l1q_6ci: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmprtfujtnl
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmprtfujtnl: $
     buildTTF instance_ufos/Oswald-Bold.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpmc1npqdq
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpmc1npqdq: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp3j6ljn7p
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp3j6ljn7p: $
     buildOTF instance_ufos/Oswald-Bold.ufo.json
   operation = buildOTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp_8x65rts
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp_8x65rts: $
-    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp5l1q_6ci
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpqfvlet80
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpqfvlet80: $
+    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmprtfujtnl
   operation = autohint
   args = --fail-ok  --auto-script
 # Generating ../fonts/ttf/Oswald-Bold.ttf
 build ../fonts/ttf/Oswald-Bold.ttf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp_8x65rts
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpqfvlet80
   operation = fix
   args = 
 # Generating ../fonts/otf/Oswald-Bold.otf
 build ../fonts/otf/Oswald-Bold.otf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpmc1npqdq
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp3j6ljn7p
   operation = fix
   args = 
 default $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmputh3h35a.buildStatstamp $
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpd3nn9lpv.buildStatstamp $
     ../fonts/webfonts/Oswald[wght].woff2 $
     ../fonts/webfonts/Oswald-ExtraLight.woff2 $
     ../fonts/webfonts/Oswald-Light.woff2 $

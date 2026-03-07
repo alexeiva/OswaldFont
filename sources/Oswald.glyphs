@@ -60,7 +60,7 @@ Tag = wght;
 );
 }
 );
-date = "2026-03-07 15:13:25 +0000";
+date = "2026-03-07 15:27:29 +0000";
 designer = "Vernon Adams";
 designerURL = "http://www.sansoxygen.com";
 familyName = Oswald;
@@ -49228,12 +49228,6 @@ color = 4;
 glyphname = "Cheabkhasian-cy";
 layers = (
 {
-anchors = (
-{
-name = top;
-position = "{364, 810}";
-}
-);
 layerId = "FCD7E481-103E-4A6C-AD70-01DA443B2AD0";
 paths = (
 {
@@ -49299,12 +49293,6 @@ nodes = (
 width = 622;
 },
 {
-anchors = (
-{
-name = top;
-position = "{428, 810}";
-}
-);
 layerId = "8AC5A1D3-32A8-4416-86FC-94176A419B8F";
 paths = (
 {
@@ -49589,12 +49577,6 @@ nodes = (
 width = 602;
 },
 {
-anchors = (
-{
-name = top;
-position = "{519, 810}";
-}
-);
 layerId = "F66B25F0-8957-42F3-9BF7-6C5DDCB0258B";
 paths = (
 {
@@ -65712,10 +65694,6 @@ position = "{281, 0}";
 {
 name = ogonek;
 position = "{322, 10}";
-},
-{
-name = top;
-position = "{281, 578}";
 }
 );
 layerId = "FCD7E481-103E-4A6C-AD70-01DA443B2AD0";
@@ -65791,10 +65769,6 @@ position = "{351, 0}";
 {
 name = ogonek;
 position = "{389, 10}";
-},
-{
-name = top;
-position = "{351, 578}";
 }
 );
 layerId = "8AC5A1D3-32A8-4416-86FC-94176A419B8F";
@@ -66113,10 +66087,6 @@ position = "{414, 0}";
 {
 name = ogonek;
 position = "{449, 10}";
-},
-{
-name = top;
-position = "{417, 578}";
 }
 );
 layerId = "F66B25F0-8957-42F3-9BF7-6C5DDCB0258B";
@@ -100481,5 +100451,5 @@ com.typesupply.MetricsMachine4.groupColors = {
 };
 };
 versionMajor = 4;
-versionMinor = 522;
+versionMinor = 523;
 }
