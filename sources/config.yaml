@@ -3,6 +3,10 @@ sources:
 axisOrder:
   - wght
 familyName: Oswald
+buildOTF: false
+ttfaUseScript: true
+flattenComponents: true
+decomposeTransformedComponents: true
 stat:
   Oswald[wght].ttf:
   - name: Weight
