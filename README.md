@@ -1,17 +1,17 @@
 # Oswald
 
-[![][Fontspector]](https://alexeiva.github.io/OswaldFont/fontspector/fontspector-report.html)
-[![][OpenType]](https://alexeiva.github.io/OswaldFont/fontspector/fontspector-report.html)
-[![][Universal]](https://alexeiva.github.io/OswaldFont/fontspector/fontspector-report.html)
-[![][Google Fonts]](https://alexeiva.github.io/OswaldFont/fontspector/fontspector-report.html)
-[![][Glyphset]](https://alexeiva.github.io/OswaldFont/fontspector/fontspector-report.html)
+[![][Fontspector]](https://cyrealtype.github.io/OswaldFont/fontspector/fontspector-report.html)
+[![][OpenType]](https://cyrealtype.github.io/OswaldFont/fontspector/fontspector-report.html)
+[![][Universal]](https://cyrealtype.github.io/OswaldFont/fontspector/fontspector-report.html)
+[![][Google Fonts]](https://cyrealtype.github.io/OswaldFont/fontspector/fontspector-report.html)
+[![][Glyphset]](https://cyrealtype.github.io/OswaldFont/fontspector/fontspector-report.html)
 
-[Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Falexeiva.github.io%2FOswald4%2Fbadges%2FFontspectorQA.json
-[OpenType]: https://img.shields.io/endpoint?url=https%3A%2F%2Falexeiva.github.io%2FOswald4%2Fbadges%2FOpentypeSpecificationChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Falexeiva.github.io%2FOswald4%2Fbadges%2FUniversalProfileChecks.json
-[Google Fonts]: https://img.shields.io/endpoint?url=https%3A%2F%2Falexeiva.github.io%2FOswald4%2Fbadges%2FFontFileChecks.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Falexeiva.github.io%2FOswald4%2Fbadges%2FOutlineCorrectnessChecks.json
-[Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Falexeiva.github.io%2FOswald4%2Fbadges%2FGlyphsetChecks.json
+[Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Fcyrealtype.github.io%2FOswaldFont%2Fbadges%2FFontspectorQA.json
+[OpenType]: https://img.shields.io/endpoint?url=https%3A%2F%2Fcyrealtype.github.io%2FOswaldFont%2Fbadges%2FOpentypeSpecificationChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fcyrealtype.github.io%2FOswaldFont%2Fbadges%2FUniversalProfileChecks.json
+[Google Fonts]: https://img.shields.io/endpoint?url=https%3A%2F%2Fcyrealtype.github.io%2FOswaldFont%2Fbadges%2FFontFileChecks.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fcyrealtype.github.io%2FOswaldFont%2Fbadges%2FOutlineCorrectnessChecks.json
+[Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Fcyrealtype.github.io%2FOswaldFont%2Fbadges%2FGlyphsetChecks.json
 
 ![Sample Image](documentation/slide1.png)
 
